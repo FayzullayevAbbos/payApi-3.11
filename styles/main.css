@@ -1,0 +1,143 @@
+li a,
+.bott a {
+  font-family: var(--p-);
+  font-weight: 700;
+  color: var(--after-hover);
+  font-size: 1.5rem;
+}
+li a:hover {
+  color: var(--primary);
+}
+nav {
+  padding: 4rem 0;
+  height: 17.6vh;
+}
+header {
+  height: 100vh;
+  background: url("../images/png/hero-bg.png") no-repeat top -15rem right -10rem,
+    var(--main-bg);
+  background-size: contain;
+}
+.hero {
+  height: 82.4vh;
+  background: url("../images/svg/Group\ 30.svg") no-repeat right bottom;
+  background-size: contain;
+}
+.h1 {
+  max-width: 54.6rem;
+  font-size: 7.2rem;
+  font-family: var(--h-);
+  font-weight: 400;
+  color: var(--primary);
+}
+[placeholder="Enter email address"] {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding-left: 27px;
+  font-family: var(--p-);
+  font-weight: 700;
+}
+.input {
+  border-radius: 24px;
+ 
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+form{
+    background: #fbfcfe;
+    max-width: 44.5rem;
+}
+.form-h{
+    height: 50px;
+}
+.bott {
+  padding-left: 27px;
+}
+.bott p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--p-);
+  color: var(--after-hover);
+}
+.input input {
+  background: none;
+}
+.feature {
+  background: url("../images/png/feature__bg2.png") no-repeat left top, var(--bg);
+  background-size: contain;
+
+}
+.h2-w {
+  max-width: 44.5rem;
+  font-size: 4.2rem;
+  color: var(--font-w);
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  font-family: var(--h-);
+  font-weight: 400;
+}
+.h2-b {
+  max-width: 44.5rem;
+  font-size: 4.2rem;
+  color: var(--primary);
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  font-family: var(--h-);
+  font-weight: 400;
+}
+.feature__info {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--p-);
+  color: var(--font-w-07);
+  max-width: 44.5rem;
+}
+.feature__info-b {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--p-);
+    color: var(--after-hover);
+    max-width: 44.5rem;
+  }
+.feature a {
+  color: var(--font-w);
+  padding: 1.6rem 3.2rem;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+  max-width: 13.2rem;
+  font-family: var(--p-);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feature__right {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(1);
+}
+.feature__right a {
+  border: none;
+}
+main{
+    background: url("../images/png/main-bg.png") no-repeat center right , var(--main-bg);
+    
+}
+.h3{
+    font-size: 1.8rem;
+    font-family: var(--p-);
+    color: var(--primary);
+}
+.img2{
+    transform: translateX(-40%);
+}
+.img3{
+    transform: translateX(30%);
+}
+footer{
+    background: var(--bg);
+}
+footer li a {
+    color: var(--font-w-07);
+}
+footer li a:hover{
+    color: var(--font-w);
+}
